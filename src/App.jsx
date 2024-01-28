@@ -69,6 +69,7 @@ const YourComponent = () => {
             <option value="20">20</option>
             <option value="30">30</option>
           </select>
+          <h2>Pagination</h2>
           {/* List of products */}
           <ul className='products-list'>
             {visibleProducts.map(product => (

@@ -33,6 +33,7 @@
 
 .pagination {
   display: flex;
+  gap: 5px;
   justify-content: center;
   margin: 20px;
   padding: 20px;
@@ -42,3 +43,13 @@
 .active{
   color: red;
 }
+
+h2{
+  text-align: center;
+  text-decoration: underline;
+}
+
+.pagination span{
+  cursor: pointer;
+}
+
